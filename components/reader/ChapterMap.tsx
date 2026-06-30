@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { CircularProgressbarWithChildren } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import { BookOpen, Check, Lock, Crown, Home, Library, User, Trophy, Settings } from "lucide-react";
-
+import { createClient } from "@/lib/supabase/client";
 // ── ChapterMap ─────────────────────────────────────────────
 interface ChapterData { id: number; order: number; title: string; description: string; completed: boolean; active: boolean; }
 export function ChapterMap({ chapters }: { chapters: ChapterData[] }) {
