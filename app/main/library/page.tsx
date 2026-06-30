@@ -1,4 +1,4 @@
-import { createServerSupabaseClient } from "@/lib/supabase";
+import { createServerSupabaseClient } from "@/lib/supabase/server";
 import { BookCard } from "@/components/reader/BookCard";
 import { GENRE_META } from "@/types/database";
 import type { Genre } from "@/types/database";
