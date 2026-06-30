@@ -7,7 +7,7 @@
 // ═══════════════════════════════════════════════════════════
 
 import { revalidatePath } from "next/cache";
-import { createServerSupabaseClient, createServiceClient } from "@/lib/supabase";
+import { createServerSupabaseClient, createServiceClient } from "@/lib/supabase/server";
 import { recordSceneProgress, updateGenome } from "./queries";
 import { computeArchetype } from "@/types/database";
 
