@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { createClient } from "@/lib/supabase";
+import { createClient } from "@/lib/supabase/client";
 import { toast } from "sonner";
 import { computeArchetype, ARCHETYPE_META } from "@/types/database";
 import type { Archetype } from "@/types/database";
