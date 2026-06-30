@@ -2,7 +2,7 @@
 import Image from "next/image";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { createClient } from "@/lib/supabase";
+import { createClient } from "@/lib/supabase/client";
 import { toast } from "sonner";
 import { GENRE_META } from "@/types/database";
 import type { Genre } from "@/types/database";
