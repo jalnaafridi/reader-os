@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { createServiceClient } from "@/lib/supabase";
+import { createServiceClient } from "@/lib/supabase/server";
 
 const DELAY = (ms: number) => new Promise(r => setTimeout(r, ms));
 
